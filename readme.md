@@ -3,9 +3,9 @@
 
 reference https://codeburst.io/4-ways-for-making-http-s-requests-with-node-js-c524f999942d
 
-# Requests with callbacks
+## Requests with callbacks
 
-## http.get and https.get, a native way
+* http.get and https.get, a native way
 
 *Pros:*
 - native API, there is no need to install third party modules
@@ -16,7 +16,7 @@ reference https://codeburst.io/4-ways-for-making-http-s-requests-with-node-js-c5
 - the response is a stream*
 - no support for promises
 
-## The Request Module
+* The Request Module
 *Pros:*
 - ease of use
 
@@ -24,9 +24,9 @@ reference https://codeburst.io/4-ways-for-making-http-s-requests-with-node-js-c5
 - no support for promises
 - it’s a third party module with many dependencies
 
-# Requests with promises
+## Requests with promises
 
-## The node-fetch module
+* The node-fetch module
 *Pros:*
 - support for promises
 - same API as window.fetch
@@ -37,7 +37,7 @@ reference https://codeburst.io/4-ways-for-making-http-s-requests-with-node-js-c5
 
 Some people can’t stand out the fact that in order to manipulate the response you have to chain then() two times (and some other quirks) but in the end it’s a matter of getting the job done: use whichever library you prefer.
 
-## The axios module
+* The axios module
 *Pros:*
 - support for promises
 - ease of use
